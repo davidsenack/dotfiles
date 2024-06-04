@@ -1,5 +1,7 @@
 # Dotfiles
 
+My simple dotfile setup using Vim, Tmux, and Ubuntu 24.04 LTS
+
 To install, simply copy the dotfiles to your home directory and run
 the package install script.
 
