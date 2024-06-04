@@ -5,7 +5,7 @@ the package install script.
 
 ```bash
 git clone https://github.com/davidsenack/dotfiles.git
-cd dotfiles
+cd dotfiles/dotfiles
 cp * ~
 sudo bash .packages.install
 ```
