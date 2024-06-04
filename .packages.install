@@ -1,0 +1,52 @@
+#!/bin/bash
+
+apt update
+apt install -y \
+    bc \
+    binutils \
+    bison \
+    bsdutils \
+    build-essential \
+    calc \
+    curl \
+    dash \
+    dconf-cli \
+    ddgr \
+    diffutils \
+    efibootmgr \
+    fakeroot \
+    findutils \
+    flex \
+    g++ \
+    gawk \
+    gcc \
+    gh \
+    git \
+    gnome-tweaks \
+    gzip \
+    htop \
+    libelf-dev \
+    libncurses-dev \
+    libssl-dev \
+    make \
+    ncurses-base \
+    ncurses-bin \
+    neofetch \
+    nmap \
+    nnn \
+    openssh-client \
+    rclone \
+    rsync \
+    speedtest-cli \
+    stow \
+    texinfo \
+    tmux \
+    vim \
+    xz-utils \
+    zsh &
+
+snap install \
+    dust \
+    firefox \
+    go \
+    scc
