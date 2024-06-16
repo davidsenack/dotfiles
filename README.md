@@ -9,3 +9,5 @@ the package install script.
 chmod +x install.sh
 ./install.sh
 ```
+Note: It may seem that the install of the dotfiles has failed. Make sure to restart
+GNOME terminal.  
