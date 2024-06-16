@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Install packages needed
+sudo sh .packages.install
+
 # Backup pre-existing dotfiles
 mv $HOME/.config/dconf/user $HOME/.config/dconf/user.bak
 mv $HOME/.tmux.conf $HOME/.tmux.conf.bak
