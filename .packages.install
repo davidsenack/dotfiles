@@ -2,8 +2,8 @@
 
 apt update
 
-# Install nala frontend for APT and gzip due to issues installing with nala.
-apt install nala gzip -y
+# Install nala frontend for APT
+apt install nala -y
 
 nala update
 nala install -y \
@@ -28,7 +28,8 @@ nala install -y \
     gh \
     git \
     gnome-tweaks \
-    gnome-sushi \ 
+    gnome-sushi \
+    gzip \
     htop \
     libelf-dev \
     libncurses-dev \
