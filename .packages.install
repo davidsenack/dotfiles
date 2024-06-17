@@ -1,7 +1,10 @@
 #!/bin/bash
 
 apt update
-apt install -y \
+apt install nala -y
+
+nala update
+nala install -y \
     bc \
     binutils \
     bison \
@@ -23,6 +26,7 @@ apt install -y \
     gh \
     git \
     gnome-tweaks \
+    gnome-sushi \ 
     gzip \
     htop \
     libelf-dev \
