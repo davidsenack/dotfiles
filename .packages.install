@@ -7,6 +7,7 @@ apt install nala -y
 
 nala update
 nala install -y \
+    bat \
     bc \
     binutils \
     bison \
@@ -22,6 +23,7 @@ nala install -y \
     fakeroot \
     findutils \
     flex \
+    firefox \
     g++ \
     gawk \
     gcc \
@@ -29,6 +31,7 @@ nala install -y \
     git \
     gnome-tweaks \
     gnome-sushi \
+    golang \
     gzip \
     htop \
     libelf-dev \
@@ -50,9 +53,3 @@ nala install -y \
     vim \
     xz-utils \
     zsh &
-
-snap install \
-    dust \
-    firefox \
-    go \
-    scc
