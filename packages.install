@@ -1678,6 +1678,7 @@ mutter-common-bin
 mutter-common
 mysql-common
 nano
+nala
 nautilus-data
 nautilus-extension-gnome-terminal
 nautilus-sendto
