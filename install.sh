@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Point to target snapshot directory
+target_dir="./snapshots/default_snapshot"
+
 # Install packages needed
 cat packages.install | xargs sudo apt install -y
 
@@ -16,11 +19,8 @@ mv $HOME/.zshrc $HOME/.zshrc.bak
 mkdir -p $HOME/.config/dconf
 
 # Copy dotfiles to user home directory
-cp .config/dconf/user $HOME/.config/dconf
-cp packages.install $HOME/.packages.install
-cp .tmux.conf $HOME
-cp .vimrc $HOME
-cp .zshrc $HOME
-
-# Reload Zsh
-source .zshrc
+cp $target_dir/.config/dconf/user $HOME/.config/dconf
+cp $target_dir/packages.install $HOME/.packages.install
+cp $target_dir/.tmux.conf $HOME
+cp $target_dir/.vimrc $HOME
+cp $target_dir/.zshrc $HOME
