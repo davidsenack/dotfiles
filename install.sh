@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Install packages needed
-sudo sh .packages.install
+cat packages.install | xargs sudo apt install -y
 
 # Add zsh install and config
-::TODO
+#::TODO
 
 # Backup pre-existing dotfiles
 mv $HOME/.config/dconf/user $HOME/.config/dconf/user.bak
@@ -17,6 +17,7 @@ mkdir -p $HOME/.config/dconf
 
 # Copy dotfiles to user home directory
 cp .config/dconf/user $HOME/.config/dconf
+cp packages.install $HOME/.packages.install
 cp .tmux.conf $HOME
 cp .vimrc $HOME
 cp .zshrc $HOME
