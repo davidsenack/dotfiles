@@ -1,6 +1,6 @@
 # Dotfiles
 
-My simple dotfile setup using Vim, Tmux, and GNOME Terminal on Ubuntu 24.04 LTS
+My dotfile setup using Vim, Tmux, and GNOME Terminal on Ubuntu 24.04 LTS.
 
 ### Install
 
@@ -14,4 +14,12 @@ chmod +x install.sh
 Note: It may seem that the install of the dotfiles has failed. Make sure to restart
 GNOME terminal.  
 
+### Snapshot
 
+To take a snapshot of the current system dotfiles run the snapshot script.
+
+```bash
+chmod +x snapshot.sh
+./snapshot.sh
+```
+Each snapshot will be saved to the `snapshots` directory.
