@@ -4,7 +4,7 @@
 target_dir="./snapshots/default_snapshot"
 
 # Install fonts from fonts directory.
-cp fonts $HOME/.local/share
+cp -r fonts $HOME/.local/share
 
 # Install packages needed
 cat $target_dir/packages.install | xargs sudo apt install -y
